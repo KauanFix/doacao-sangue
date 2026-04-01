@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Doação de Sangue</title>
+</head>
+
+<body>
+    <div class="flex">
+        <div id="container">
+            <form action="" id="formulario">
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" placeholder="Nome Completo" required>
+                <br>
+                <br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="Email" required>
+                <br>
+                <br>
+
+                <label for="idade">Idade:</label><br>
+                <input type="number" min="0" id="idade" value="0" required>
+                <br>
+                <br>
+
+                <label for="peso">Peso:</label><br>
+                <input type="number" min="0" id="peso" value="0" required> kg
+                <br>
+                <br>
+
+                <select name="tipo-sangue" id="tipo-sangue">
+                    <option selected disabled  >Escolha seu tipo sanguíneo</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" required> 
+                <br>
+                <br>
+
+                <label for="estado">Estado:</label><br>
+                <input type="text" id="estado" placeholder="São Paulo" required> 
+                <br>
+                <br>
+
+                <label for="cidade">Cidade:</label><br>
+                <input type="text" id="cidade" placeholder="São Paulo" required> 
+                <br>
+                <br>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
