@@ -4,6 +4,21 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+label{
+    font-size: large;
+    font-weight: bold;
+}
+
+input{
+    padding: 3px;
+}
+
+button{
+    padding: 10px;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.233);
+    margin-bottom: 3px;
+}
+
 .flex{
     display: flex;
     justify-content: center;
@@ -14,6 +29,11 @@ body{
     justify-content: center;
     margin-top: 10%;
     background-color: brown;
-    padding: 10px;
+    padding: 20px;
     color: white;
+    height: 400px;
+    overflow-y: scroll;
+    border: 5px solid rgb(199, 73, 73);
+    border-radius: 30px 0px 0px 30px;
+
 }
